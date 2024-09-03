@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="cal.css">
 </head>
 <body>
     <script src="script.js"></script>
-    <input type="text" id="um" placeholder="Digite um número">
-    <input type="text" id="dois" placeholder="Digite um número">
-    <button onclick="calcula('+')">Soma</button>
-    <button onclick="calcula('-')">SUbtração</button>
-    <button onclick="calcula('*')">MUltiplicação</button>
-    <button onclick="calcula('/')">Divisão</button>
-    <span id="resul"></span>
+    <input class="number1" type="text" id="um" placeholder="Digite um número">
+    <input class="number2" type="text" id="dois" placeholder="Digite um número">
+    <button class="b1" onclick="calcula('+')">+</button>
+    <button class="b2" onclick="calcula('-')">-</button>
+    <button class="b3" onclick="calcula('*')">X</button>
+    <button class="b4" onclick="calcula('/')">÷</button>
+    <span class="resul" id="resul"></span>
 </body>
 </html>
